@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "monolandhardcore",
+	"version": "${version}",
+	"name": "Monoland Hardcore",
+	"description": "Monoland Hardcore Mod",
+	"authors": [
+		"TNKDieguex"
+	],
+	"contact": {
+		"homepage": "https://github.com/TNKDieguex/monolandHardcore-26.1.X",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/monolandhardcore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dieguex.monolandhardcore.MonolandHardcore"
+		],
+		"fabric-datagen": [
+			"net.dieguex.monolandhardcore.MonolandHardcoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"monolandhardcore.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
