@@ -1,6 +1,5 @@
 package net.dieguex.monolandhardcore;
 
-import net.dieguex.monolandhardcore.item.ModItems;
 import net.dieguex.monolandhardcore.registerMods.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
