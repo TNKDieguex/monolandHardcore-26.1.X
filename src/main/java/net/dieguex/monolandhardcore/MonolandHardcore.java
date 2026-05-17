@@ -1,5 +1,7 @@
 package net.dieguex.monolandhardcore;
 
+import net.dieguex.monolandhardcore.item.ModItems;
+import net.dieguex.monolandhardcore.registerMods.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +13,9 @@ public class MonolandHardcore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModRegistries.registerMods();
 
-		LOGGER.info("Hello Fabric world!");
+
+		LOGGER.info("Allô!");
 	}
 }
