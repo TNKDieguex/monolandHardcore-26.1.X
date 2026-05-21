@@ -1,6 +1,6 @@
 package net.dieguex.monolandhardcore;
 
-import net.dieguex.monolandhardcore.registerMods.ModRegistries;
+import net.dieguex.monolandhardcore.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

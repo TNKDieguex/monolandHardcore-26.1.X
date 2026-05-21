@@ -1,4 +1,4 @@
-package net.dieguex.monolandhardcore.registerMods;
+package net.dieguex.monolandhardcore.util;
 
 import net.dieguex.monolandhardcore.item.ModItems;
 import net.dieguex.monolandhardcore.item.ModItemsGroup;
