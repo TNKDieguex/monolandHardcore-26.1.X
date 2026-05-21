@@ -3,7 +3,7 @@
 	"package": "net.dieguex.monolandhardcore.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+      "ZombieEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
